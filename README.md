@@ -27,14 +27,18 @@ cd /opt
 
 2. Ejecute el script de instalación **asegurese de estar como root** y siga todas las indicaciones correspondientes
 
+- Cambiamos de carpeta 
+
 ```
 cd fogproyect-dev/bin/
 ```
+- Le damos permisos de ejecución
 ```
 chmod u+x ./installfog.sh
 ```
+- Ejecutamos
 ```
-./installfog.sh
+./installfog.sh -X
 ```
 
 3. Pasos del instalador ***(resumen)***

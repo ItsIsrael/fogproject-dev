@@ -9,11 +9,12 @@ FOG Project es una plataforma de imagen y despliegue de sistemas operativos de c
 
 0. Instala y actualiza tu distribución de servidor Linux
 ```
-sudo apt update -y && sudo apt upgrade -y
+sudo -i
+apt update -y && apt upgrade -y
 ```
 1. Muevase a 
 ```
-cd /opt/
+cd /opt
 ```
 2. Descargue los archivos de instalación
 
@@ -21,14 +22,18 @@ cd /opt/
 
   **git** 
   ```
-  git clone https://github.com/itsisrael/fogproject.git
+  git clone https://github.com/itsisrael/fogproject-dev.git
   ```
 
-2. Ejecute el script de instalación **como root** y siga todas las indicaciones correspondientes
+2. Ejecute el script de instalación **asegurese de estar como root** y siga todas las indicaciones correspondientes
 
 ```
-sudo -i
-cd /opt/fogproyect-dev/bin/
+cd fogproyect-dev/bin/
+```
+```
+chmod u+x ./installfog.sh
+```
+```
 ./installfog.sh
 ```
 

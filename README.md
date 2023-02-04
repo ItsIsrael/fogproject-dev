@@ -4,7 +4,7 @@
 
 FOG Project es una plataforma de imagen y despliegue de sistemas operativos de código abierto que permite a los administradores de sistemas crear y desplegar imágenes de sistemas operativos en una red de computadoras. FOG Project utiliza un servidor central para almacenar y distribuir imágenes, y permite a los administradores realizar tareas como clonación de discos duros, despliegue de imágenes en múltiples computadoras, control de inventario y monitoreo de la red. 
 
-#####LINKS  
+#### LINKS  
 - *Toda la documentación* [FOG Documentation](https://docs.fogproject.org/en/latest/index.html)
 - *Observa si esta disponible para tu versión de linux* - [FOG Installer Dashboard](https://fogtesting.fogproject.us/)
 ## Instalar la última versión de desarrollo
